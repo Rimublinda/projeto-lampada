@@ -64,11 +64,6 @@ main{
     max-width: 35pc;
 }
 
-.animacao_lampada{
-    animation-name: bounceInDown;
-    animation-duration: 1.5s;
-}
-
 .botao{
     width: 11pc;
     height: 7vh;
