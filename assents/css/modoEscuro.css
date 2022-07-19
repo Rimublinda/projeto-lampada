@@ -3,12 +3,7 @@ body{
 }
 
 main{
-    background-color: #134d84;
-    box-shadow: 10px 10px 0px #01203c,
-    20px 20px 0px #022e57,
-    30px 30px 0px #1b71c2,
-    40px 40px 0px #388ad6,
-    50px 50px 0px #65abeca9;
+    background-color: #134d84;    
 }
 
 #titulo{
