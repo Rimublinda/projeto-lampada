@@ -9,18 +9,19 @@
 <img alt="NPM" src="https://img.shields.io/npm/l/m?style=for-the-badge">
 </p>
 
-<h2 align="center">Descrição:</h3>
+<h2 align="center">Descrição:</h2>
 <p align="center">
- esse projeto foi para treinar meu conhecimento, assim usando a lâmpada para fazer esse treino.
+ Esse projeto foi para treinar meu conhecimento, assim usando a lâmpada para fazer esse treino.
 </p>
 
-<h2 align="center">funções:</h3>
+<h2 align="center">Funções:</h2>
 
 <ul>
-<li>acender a lâmpada</li>
-<li>apagar a lâmpada</li>
-<li>destruir a lâmpada</li>
-<li>e modo noturno</li>
+<li>Acender a lâmpada</li>
+<li>Apagar a lâmpada</li>
+<li>Destruir a lâmpada</li>
+<li>E modo noturno</li>
 </ul>
 
-<a href="https://rimublinda.github.io/projeto-lampada/">link do site</a>
+<h2 align="center">Link do site:</h2>
+<a href="https://rimublinda.github.io/projeto-lampada/">Aqui estar o link</a>
