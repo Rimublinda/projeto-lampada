@@ -1,0 +1,98 @@
+:root{
+--cor-branco: #fff;
+--cor-preta: #000;
+--sombra-preta: 3px 2px 3px #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#E0E0E0, #ccc, #ABABAB);
+}
+
+main{
+    background-color: #6db9ff;
+    width: 75%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 0px #064a8a,
+    20px 20px 0px #0b5396,
+    30px 30px 0px #1b71c2,
+    40px 40px 0px #388ad6,
+    50px 50px 0px #65abeca9;
+    animation-name: backInLeft;
+    animation-duration: 1.5s;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+#titulo{
+    font-size: 4em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 2px 2px 2px rgba(206, 89, 55, 0);
+    text-transform: capitalize;
+}
+
+.modo_noturno{
+    position: absolute;
+    font-size: 3.5em;
+    right: 3.5em;
+    background-color: #000000d1;
+    color: #ccc;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#lampada{
+    max-width: 35pc;
+}
+
+.animacao_lampada{
+    animation-name: bounceInDown;
+    animation-duration: 1.5s;
+}
+
+.botao{
+    width: 11pc;
+    height: 7vh;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: var(--cor-branco);
+    background-color: darkgreen;
+    border: none;
+    box-shadow: 0px 10px 0px rgb(0, 53, 0);
+    text-shadow: var(--sombra-preta);
+    margin-left: 1.5pc;
+    margin-bottom: 1.5pc;
+    cursor: pointer;
+}
+
+.botao:active{
+    position: relative;
+    box-shadow: none;
+    top: 5px;
+}
+
+.botoes_1e2{
+    cursor: no-drop;
+    background-color: red;
+    box-shadow: 0px 10px 0px darkred;
+}

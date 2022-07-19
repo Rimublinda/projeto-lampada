@@ -1,0 +1,103 @@
+@media only screen and (max-width: 900px) {
+    body{
+       overflow-x: hidden;
+       height: 112vh;
+    }
+
+    main{
+        height: 100%;
+        box-shadow: 10px 10px 0px #064a8a, 
+        20px 20px 0px #0b5396, 
+        30px 30px 0px #1b71c2;
+    }
+
+    #menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #titulo{
+        font-size: 2.6em;
+        text-align: center;
+    }
+
+    .modo_noturno {
+        position: relative;
+        right: 0;
+    }
+
+    .butoes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #menu_celular {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #btn_celular {
+        background: var(--cor-preta);
+        display: block;
+        width: 35px;
+        height: 5px;
+        cursor: pointer;
+        margin-bottom: 0.7pc;
+        margin-top: 1pc;
+    }
+    
+    #btn_celular::before,
+    #btn_celular::after {
+            background: currentColor;
+            content: '';
+            display: block;
+            width: 35px;
+            height: 5px;
+            position: relative;
+            transition: 0.5s ease-in-out;
+    
+    }
+    
+    #btn_celular:before {
+        top: -10px;
+    }
+    
+    #btn_celular:after {
+        bottom: -6px;
+    }
+    
+    #menu_celular.active #btn_celular {
+        transform: rotate(45deg);
+    }
+    
+    #menu_celular.active #btn_celular:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    
+    #menu_celular.active #btn_celular:after {
+            transform: rotate(90deg);
+            bottom: 4px;
+}
+        
+    #menu_celular.active #botoes {
+        height: 30vh;
+    }
+
+
+    #botoes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 0vh;
+            transition: 1.2s;
+            overflow-y: hidden;
+            background-color: rgba(0, 0, 0, 0.73);
+    }    
+}
